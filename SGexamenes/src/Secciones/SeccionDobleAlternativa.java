@@ -1,16 +1,16 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * To change this template, choose Tools | Templates * and open the template in the editor.
  */
 package Secciones;
 
+import Preguntas.Pregunta;
 import javax.swing.JFrame;
 
 /**
  *
- * @author 	Frarlon Rodriguez	
-*/				
-public class Secciones extends JFrame implements Seccion {
+ * @author Frarlon Rodriguez
+ */
+public class SeccionDobleAlternativa extends JFrame implements Pregunta{
 
     @Override
     public void insertarInfo() {
@@ -23,12 +23,12 @@ public class Secciones extends JFrame implements Seccion {
     }
 
     @Override
-    public void agregarPregunta(SeccionSeleccionUnica p) {
+    public void evaluarPregunta() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void eliminarPregunta(SeccionSeleccionUnica p) {
+    public void desplegarPregunta() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

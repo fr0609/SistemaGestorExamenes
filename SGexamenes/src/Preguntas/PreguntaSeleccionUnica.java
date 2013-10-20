@@ -3,13 +3,15 @@
  */
 package Preguntas;
 
+import Secciones.*;
+import Preguntas.Pregunta;
 import javax.swing.JFrame;
 
 /**
  *
  * @author Frarlon Rodriguez
  */
-public class Preguntas extends JFrame implements Pregunta{
+public class PreguntaSeleccionUnica extends JFrame implements Pregunta{
 
     @Override
     public void insertarInfo() {

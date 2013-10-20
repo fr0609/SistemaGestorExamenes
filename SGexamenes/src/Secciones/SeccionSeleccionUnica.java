@@ -1,16 +1,16 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * To change this template, choose Tools | Templates * and open the template in the editor.
  */
 package Secciones;
 
+import Preguntas.Pregunta;
 import javax.swing.JFrame;
 
 /**
  *
- * @author 	Frarlon Rodriguez	
-*/				
-public class Secciones extends JFrame implements Seccion {
+ * @author Frarlon Rodriguez
+ */
+public class SeccionSeleccionUnica extends JFrame implements Seccion{
 
     @Override
     public void insertarInfo() {

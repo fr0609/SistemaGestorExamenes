@@ -4,8 +4,6 @@
  */
 package Secciones;
 
-import Preguntas.Preguntas;
-
 /**
  *
  * @author fr0609
@@ -13,8 +11,8 @@ import Preguntas.Preguntas;
 public interface Seccion { 
   public void insertarInfo();
   public void eliminarInfo();
-  public void agregarPregunta(Preguntas p); 	
-  public void eliminarPregunta(Preguntas p); 				
+  public void agregarPregunta(SeccionSeleccionUnica p); 	
+  public void eliminarPregunta(SeccionSeleccionUnica p); 				
 } 
 
 
